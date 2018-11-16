@@ -4,13 +4,16 @@ using WordCounter;
 namespace WordCounter.Tests
 {
   [TestClass]
-  public class LeapYearTest
-  {
-    [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+  public class WordCounterTest
     {
-    // any necessary logic to prep for test; instantiating new classes, etc.
-    Assert.AreEqual();
-    }
+        [TestMethod]
+        public void RepeatCounter_CountNumberOfTimesWordAppears_Int()
+        {
+            string testWord = "dog";
+            string testSentence = "I walked the dog";
+
+            Word myWord = new Word();
+            Assert.AreEqual(1, myWord.RepeatCounter(testWord, testSentence));
+        }
     }
 }
