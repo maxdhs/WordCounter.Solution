@@ -13,9 +13,8 @@ A c# console app which accepts a user inputted word and a user inputted string. 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| Program accepts user input and splits up the sentece |"pepperoni is good" | ["pepperoni", "is", "good"] |
-| Program tests wether one word is equal to another word | "pepperoni" == "pepperoni" |  true |
-| Program displays number of times word is in a list| "pepperoni", "pepperni is good" | 1  |
+| Program accepts user input and confirms its a string |"pepperoni is good" | true |
+| Program displays number of times word is in a list| "pepperoni", "pepperoni is good" | 1  |
 
 ## Setup/Installation Requirements
 

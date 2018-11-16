@@ -2,6 +2,12 @@ namespace WordCounter
 {
   public class Word
   {
+    
+    public bool IsUserInputStrings (string UserWord, string UserSentence)
+    {
+        return UserWord is string && UserSentence is string;
+    }
+    
     public int RepeatCounter(string userWord, string userSentence)
     {
         string[] userSentenceArr = userSentence.Split();
