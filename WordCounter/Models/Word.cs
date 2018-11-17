@@ -1,5 +1,22 @@
+using System;
+
 namespace WordCounter
 {
+  
+  public class Program
+  {
+    public static void Main()
+    {
+      Word myWord = new Word();
+      Console.WriteLine("Please enter a word: ");
+      string userWord = Console.ReadLine();
+      Console.WriteLine("Please enter a sentence: ");
+      string userSentence = Console.ReadLine();
+      Console.WriteLine("Your word appears " + myWord.RepeatCounter(userWord, userSentence) + " times.");
+      Console.ReadLine();
+    }
+  }
+  
   public class Word
   {
     

@@ -1,6 +1,6 @@
 # _Word Counter_
 
-http://maxdhs.github.io/word-counter
+http://maxdhs.github.io/word-counter-cs
 
 #### A console app for a simple word counter.
 
