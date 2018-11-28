@@ -13,13 +13,20 @@ A c# console app which accepts a user inputted word and a user inputted string. 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| Program accepts user input and confirms its a string |"pepperoni is good" | true |
-| Program displays number of times word is in a list| "pepperoni", "pepperoni is good" | 1  |
+| Program accepts user word and confirms its a string |"pepperoni" | true |
+| Program accepts user sentence and confirms its a string |"pepperoni is good" | true |
+| Program displays number of times word is in a list| "dog", "i walked the dog" | 1  |
 
 ## Setup/Installation Requirements
 
-* _Clone this repository on GitHub_
-* _Double-click the file "Word.exe"_
+* Requirements Software
+* Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them. 
+* Download Mono and install it.
+* Clone this repository: $ git clone https://github.com/maxdhs/to-do-list-cs
+* Change into the work directory:: $ cd WordCounter.Solution
+* To edit the project, open the project in your preferred text editor.
+* To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
+* To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test
 
 ## Known Bugs
 * No known bugs at this time.
