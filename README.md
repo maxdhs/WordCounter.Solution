@@ -1,6 +1,6 @@
 # _Word Counter_
 
-http://maxdhs.github.io/word-counter-cs
+http://maxdhs.github.io/WordCounter.Solution
 
 #### A console app for a simple word counter.
 
@@ -22,7 +22,7 @@ A c# console app which accepts a user inputted word and a user inputted string. 
 * Requirements Software
 * Download .NET Core 2.1.3 SDK and .NET Core Runtime 2.0.9 and install them. 
 * Download Mono and install it.
-* Clone this repository: $ git clone https://github.com/maxdhs/to-do-list-cs
+* Clone this repository: $ git clone https://github.com/maxdhs/WordCounter.Solution
 * Change into the work directory:: $ cd WordCounter.Solution
 * To edit the project, open the project in your preferred text editor.
 * To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
