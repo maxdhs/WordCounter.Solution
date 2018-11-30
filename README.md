@@ -8,7 +8,7 @@ http://maxdhs.github.io/WordCounter.Solution
 
 ## Description
 
-A c# console app which accepts a user inputted word and a user inputted string. The number of times the word appears in the string is displayed.
+A c# web app which accepts a user inputted word and a user inputted string. The number of times the word appears in the string is displayed.
 
 ### Specs
 | Spec | Input | Output |
