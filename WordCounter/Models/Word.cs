@@ -1,22 +1,7 @@
 using System;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
-  
-  public class Program
-  {
-    public static void Main()
-    {
-      Console.WriteLine("Please enter a word: ");
-      string userWord = Console.ReadLine();
-      Console.WriteLine("Please enter a sentence: ");
-      string userSentence = Console.ReadLine();
-      Word myWord = new Word(userWord, userSentence);
-      Console.WriteLine("Your word appears " + myWord.RepeatCounter(userWord, userSentence) + " times.");
-      Console.ReadLine();
-    }
-  }
-  
   public class Word
   {
     private string _userWord;
