@@ -23,14 +23,14 @@ namespace WordCounter.Models
       return _userSentence;
     }
 
-    public int RepeatCounter(string userWord, string userSentence)
+    public int RepeatCounter()
     {
-        string[] userSentenceArr = userSentence.Split();
+        string[] userSentenceArr = _userSentence.Split();
         int wordCount = 0;
         
         for(int x = 0; x < userSentenceArr.Length; x++)
         {
-          if (userSentenceArr[x] == userWord)
+          if (userSentenceArr[x] == _userWord)
           {
             wordCount++;
           }

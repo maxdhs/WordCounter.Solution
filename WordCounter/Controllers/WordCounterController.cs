@@ -7,24 +7,17 @@ namespace WordCounter.Controllers
   public class WordController : Controller
   {
 
-    [HttpGet("/word")]
-    public ActionResult Index()
-    {
-      return View();
-    }
-
     [HttpGet("/word/new")]
     public ActionResult New()
     {
       return View();
     }
 
-
-    [HttpPost("/word")]
-    public ActionResult Create(string userWord, string userSentence)
+     [Route("/word")]
+    public ActionResult Index(string userWord, string userSentence)
     {
-      Word myWord = new Word(userWord, userSentence);
-      return RedirectToAction("Index");
-    }
+        Word myWord = new Word(userWord, userSentence);
+        return View(myWord);
+    }  
   }
 }

@@ -9554,11 +9554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\wordcounter\\WordCounter.csproj",
+      "projectUniqueName": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
       "projectName": "WordCounter",
-      "projectPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\wordcounter\\WordCounter.csproj",
+      "projectPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj",
       "packagesPath": "C:\\Users\\Kingslayer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\wordcounter\\obj\\",
+      "outputPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kingslayer\\AppData\\Roaming\\NuGet\\NuGet.Config",

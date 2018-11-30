@@ -10636,11 +10636,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "projectName": "WordCounter.Tests",
-      "projectPath": "c:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\Kingslayer\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kingslayer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10656,8 +10656,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "c:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {
-              "projectPath": "c:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj"
+            "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj": {
+              "projectPath": "C:\\Users\\Kingslayer\\Desktop\\WordCounter.Solution\\WordCounter\\WordCounter.csproj"
             }
           }
         }

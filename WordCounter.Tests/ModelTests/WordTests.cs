@@ -1,5 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter;
+using WordCounter.Models;
 
 namespace WordCounter.Tests
 {
@@ -37,7 +37,7 @@ namespace WordCounter.Tests
             string testWord = "dog";
             string testSentence = "I walked the dog and then the dog pooped";
             Word myWord = new Word(testWord, testSentence);
-            Assert.AreEqual(2, myWord.RepeatCounter(testWord, testSentence));
+            Assert.AreEqual(2, myWord.RepeatCounter());
         }
 
     }
