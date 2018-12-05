@@ -13,7 +13,7 @@ namespace WordCounter.Controllers
       return View();
     }
 
-     [Route("/word")]
+     [HttpPost("/word")]
     public ActionResult Index(string userWord, string userSentence)
     {
         Word myWord = new Word(userWord, userSentence);
